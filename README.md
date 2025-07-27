@@ -2,16 +2,16 @@
 
 **AI Hackfest Submission** | *Intelligent Pricing with Google Gemini AI*
 
-## 🏆 Prize Categories
+## Prize Categories
 - **Best Use of Gemini API** - Advanced prompt engineering for pricing analysis
 - **Best Use of MongoDB Atlas** - Efficient data storage and analytics  
 - **Best Use of Auth0** - Secure user authentication
 - **Best UI/UX** - Clean, intuitive interface
 
-## 🚀 Overview
+## Overview
 GemPrice is an AI-powered dynamic pricing system that helps businesses optimize their pricing strategies using Google Gemini AI. The system analyzes multiple factors including cost price, competitor pricing, inventory levels, and seasonal demand to provide intelligent pricing recommendations.
 
-## ✨ Key Features
+## Key Features
 - **AI-Powered Pricing** - Google Gemini AI analyzes complex pricing factors
 - **Real-time Recommendations** - Instant pricing suggestions with reasoning
 - **Analytics Dashboard** - Track pricing history and performance
@@ -19,7 +19,7 @@ GemPrice is an AI-powered dynamic pricing system that helps businesses optimize 
 - **Responsive Design** - Modern SvelteKit frontend
 - **Robust Fallbacks** - Intelligent backup pricing when API unavailable
 
-## 🛠️ Technology Stack
+## Technology Stack
 - **Backend**: FastAPI (Python)
 - **AI Engine**: Google Gemini 1.5 Flash
 - **Database**: MongoDB Atlas
@@ -27,14 +27,14 @@ GemPrice is an AI-powered dynamic pricing system that helps businesses optimize 
 - **Frontend**: SvelteKit + Tailwind CSS
 - **Deployment**: Docker
 
-## 📋 Prerequisites
+## Prerequisites
 - Python 3.8+
 - Node.js 18+
 - Google Gemini API Key
 - MongoDB Atlas account
 - Auth0 account
 
-## 🔧 Quick Start
+## Quick Start
 
 ### 1. Clone Repository
 ```bash
@@ -78,7 +78,7 @@ npm run dev -- --host 0.0.0.0 --port 3000
 - **API Documentation**: http://localhost:8000/docs
 - **Health Check**: http://localhost:8000/health
 
-## 🎯 API Endpoints
+## API Endpoints
 
 ### Core Endpoints
 - `POST /api/v1/recommend-price` - Get AI pricing recommendation
@@ -90,20 +90,20 @@ npm run dev -- --host 0.0.0.0 --port 3000
 - `GET /health` - System health check
 - `GET /admin/health` - Admin health status
 
-## 💡 How It Works
+## How It Works
 
 1. **Input Product Data** - Users provide cost price, competitor price, inventory level, season, and category
 2. **AI Analysis** - Gemini AI analyzes the data using advanced prompt engineering
 3. **Pricing Recommendation** - System returns optimized price with reasoning and confidence score
 4. **Analytics Tracking** - All recommendations are stored for performance analysis
 
-## 🔒 Security Features
+## Security Features
 - Auth0 JWT token authentication
 - Environment variable protection
 - CORS configuration
 - Input validation and sanitization
 
-## 📊 Sample Request/Response
+## Sample Request/Response
 
 **Request:**
 ```json
@@ -125,7 +125,7 @@ npm run dev -- --host 0.0.0.0 --port 3000
 }
 ```
 
-## 🚀 Deployment
+## Deployment
 
 ### Docker Deployment
 ```bash
@@ -140,7 +140,7 @@ docker-compose up --build
 4. Deploy SvelteKit frontend
 5. Configure environment variables
 
-## 🏗️ Project Structure
+## Project Structure
 ```
 GemPrice/
 ├── main.py              # FastAPI application
@@ -153,13 +153,13 @@ GemPrice/
 └── docker-compose.yml # Container orchestration
 ```
 
-## 🤝 Contributing
+## Contributing
 This project was built for AI Hackfest. For issues or suggestions, please open a GitHub issue.
 
-## 📄 License
+## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 - **AI Hackfest** for the amazing opportunity
 - **Google Gemini AI** for powerful language model capabilities
 - **MongoDB Atlas** for reliable cloud database
@@ -168,4 +168,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Built with ❤️ for AI Hackfest 2025**
+**Built with care for AI Hackfest 2025**
